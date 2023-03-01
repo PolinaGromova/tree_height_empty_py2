@@ -3,7 +3,6 @@
 import sys
 import threading
 
-
 def compute_height(n, parents):
     root = None
     position = [[] for _ in range(n)]
@@ -23,7 +22,6 @@ def compute_height(n, parents):
             return heigth+1    
     return max_height(root)
     
-
 def main():
     text=input("Enter I or F: ")
     if "I" in text:
