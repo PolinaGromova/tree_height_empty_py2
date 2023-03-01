@@ -11,7 +11,7 @@ def compute_height(n, parents):
             root=i 
         else:
             position[parents[i]].append(i)
-
+            
     def max_height(b):
         heigth=1
         if not position[b]:
