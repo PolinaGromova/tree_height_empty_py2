@@ -25,7 +25,7 @@ def compute_height(n, parents):
 def main():
     text=input("Enter I or F: ")
     if "I" in text:
-        n=int(input())
+        n= int(input())
         parents=list(map(int,input().split()))
     elif "F" in text:
         filename=input()    
