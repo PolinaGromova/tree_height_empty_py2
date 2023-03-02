@@ -36,7 +36,7 @@ def main():
                     n=int(f.readline())
                     parents=list(map(int,f.readline().split()))
             except Exception as e:
-                print("Error:(", str(e))
+                print("Error:", str(e))
                 return
         else:
             print("Error: invalid filename")   
@@ -45,7 +45,7 @@ def main():
         print("Enter I or F: ")  
         return   
     print(compute_height(n, parents))                 
-
+ 
 # In Python, the default limit on recursion depth is rather low,
 # so raise it here for this problem. Note that to take advantage
 # of bigger stack, we have to launch the computation in a new thread.
