@@ -36,7 +36,7 @@ def main():
                     n=int(f.readline())
                     parents=list(map(int,f.readline().split()))
             except Exception as e:
-                print("Error:(", str(e))
+                print("Error:", str(e))
                 return
         else:
             print("Error: invalid filename")   
